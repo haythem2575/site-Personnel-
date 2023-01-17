@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+  }
+  body {
+    background: rgb(3, 45, 94) center fixed;
+  }
+  header{
+    background-color:rgba(116, 129, 156, 0.377);
+    margin: 20px;
+    padding: 20px;
+    margin-top: 0px;
+  }
+  header h1{
+    color: rgb(252, 252, 252);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.678);
+
+
+  }
+    /*  main    decoration   */
+    main{
+        background-color:rgba(116, 129, 156, 0.377);
+        margin: 20px;
+        padding: 14px;
+        height: fit-content;
+      }
+  /* nav decoration*/
+  nav {
+    background-color: rgba(0, 0, 0, 0.678);
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  nav li {
+    float: left ;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    text-align: left;
+    display:inline;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(116, 129, 156);
+  }
+  
+  nav a:hover {
+    background-color: rgb(75, 154, 218);
+  }
+  
+  #in{
+    background-color: rgb(75, 154, 218);
+  }
+  .quiz-container{
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    
+  }
+  .quiz-header{
+    padding: 4rem;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    color: rgb(183, 209, 233);
+  }
+  .content ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  .content ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  .content ul li label{
+    cursor: pointer;
+  }
+  .content button{
+    background-color: rgb(75, 154, 218);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    
+  }
+  .content button:hover{
+    background-color: rgb(113, 179, 233);
+  }
+  .content button:focus{
+    outline: none;
+    background-color: #44b927;
+  }
+  .content .tableHeader{
+      padding-left: 50px;
+      padding-top: 50px;
+      font-size: x-large;
+  }
+  .content .tableContent{
+      padding-left: 30px;
+      padding-top: 30px;
+      font-size:large ;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  label{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }

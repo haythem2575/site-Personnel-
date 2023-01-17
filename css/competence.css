@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+  }
+  body {
+    background: rgb(3, 45, 94) center fixed;
+  }
+  header{
+    background-color:rgba(116, 129, 156, 0.377);
+    margin: 20px;
+    padding: 20px;
+    margin-top: 0px;
+  }
+  header h1{
+    color: rgb(252, 252, 252);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.678);
+
+
+  }
+.imgs{
+  height: 50px;
+  width: 50px;
+}
+.social-links{
+    align-content: bottom ;
+  }
+    /*  main    decoration   */
+    main{
+        background-color:rgba(116, 129, 156, 0.377);
+        margin: 20px;
+        padding: 14px;
+        height: fit-content;
+      }
+  /* nav decoration*/
+  nav {
+    background-color: rgba(0, 0, 0, 0.678);
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  nav li {
+    float: left ;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    text-align: left;
+    display:inline;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(116, 129, 156);
+  }
+  
+  nav a:hover {
+    background-color: rgb(75, 154, 218);
+  }
+  
+  #in{
+    background-color: rgb(75, 154, 218);
+  }
+  .img_parc{
+    height: 40px;
+    width: 40px;
+  
+  }
+  .content{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-self: center;
+  }
+  #lng , #comp_gen , #comp_tech{
+    padding: 20px;
+    margin: 87px;
+    background-color:  rgba(0, 0, 0, 0.678);
+    height: fit-content;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.678);
+  }
+  h2{
+    color: rgb(183, 209, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 10px;
+  }
+  h3{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+  }
+  #lng ul li , #comp_gen ul li , #comp_tech ul li{
+    list-style-type: circle ;
+    color: aliceblue;
+  }
