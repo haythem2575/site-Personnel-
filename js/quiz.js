@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "Which language runs in a web browser?",
+        question: "Quelle langue s'exécute dans un navigateur Web ?",
         a: "Java",
         b: "C",
         c: "Python",
@@ -8,7 +8,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "What does CSS stand for?",
+        question: "Que signifie CSS ?",
         a: "Central Style Sheets",
         b: "Cascading Style Sheets",
         c: "Cascading Simple Sheets",
@@ -16,7 +16,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What does HTML stand for?",
+        question: "Que signifie HTML ?",
         a: "Hypertext Markup Language",
         b: "Hypertext Markdown Language",
         c: "Hyperloop Machine Language",
@@ -24,7 +24,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "What year was JavaScript launched?",
+        question: "En quelle année JavaScript a été lancé ?",
         a: "1996",
         b: "1995",
         c: "1994",
@@ -32,7 +32,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "How do you select elements with class name 'test'?",
+        question: "Comment sélectionnez-vous des éléments avec le nom de classe 'test' ?",
         a: "#test ",
         b: ".test  ",
         c: "test",
@@ -40,14 +40,14 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "Where in an HTML document is the correct place to refer to an external style sheet?",
+        question: "Où dans un document HTML est le bon endroit pour faire référence à une feuille de style externe ?",
         a: "In the <head> section  ",
         b: "In the <body> section",
         c: "At the end of the document",
         correct: "a ",
     },
     {
-        question: "Which HTML attribute is used to define inline styles?",
+        question: "Quel attribut HTML est utilisé pour définir les styles en ligne ?",
         a: "styles  ",
         b: "font",
         c: "class",
@@ -55,7 +55,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "Which is the correct CSS syntax?",
+        question: "Quelle est la bonne syntaxe CSS ?",
         a: "body:color=black;  ",
         b: "{body:color=black;}",
         c: "{body;color:black;}",
@@ -63,7 +63,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "How do you insert a comment in a CSS file?",
+        question: "Comment insérer un commentaire dans un fichier CSS ?",
         a: "// this is a comment  ",
         b: "// this is a comment //",
         c: "/* this is a comment */  ",
@@ -71,7 +71,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "Which CSS property controls the text size?",
+        question: "Quelle propriété CSS contrôle la taille du texte ?",
         a: "text-size",
         b: "font-size  ",
         c: "font-style",
@@ -79,7 +79,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What is the default value of the position property?",
+        question: "Quelle est la valeur par défaut de la propriété position ?",
         a: "static    ",
         b: "absolute",
         c: "fixed ",
